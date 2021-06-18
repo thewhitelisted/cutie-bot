@@ -1,0 +1,16 @@
+{
+  "name": "cutiebot",
+  "version": "1.0.0",
+  "description": "Cutie bot go uwu",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Christopher Lee",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.1"
+  }
+}
