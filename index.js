@@ -37,7 +37,7 @@ const prefix = "c!"
 // this event will only trigger one time after logging in
 client.once('ready', () => {
 	console.log('Ready!');
-    client.user.setActivity("c!help || userinfo command cumming soon", { type: "WATCHING"})
+    client.user.setActivity("c!help || userinfo command coming soon", { type: "WATCHING"})
 });
 
 let scheduledMessage = new cron.CronJob('00 11 11,23 * * *', () => {
